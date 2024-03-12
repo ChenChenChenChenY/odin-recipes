@@ -1,18 +1,32 @@
-body {
-    background-color: black;
+.body {
+    background:linear-gradient(0deg, rgb(225, 123, 123), #e3bc75, rgb(214, 214, 122), rgb(120, 220, 120), rgb(131, 131, 218), rgb(169, 118, 206),rgb(238, 147, 238));
+    height: 10000px;
     color: white;
 }
 
 h1 {
     text-align: center;
+    border:
 }
 
 a {
     text-align: center;
+    display: block;
+    margin: 30px 100px;
+    font-weight: bold;
+    border: solid white 3px;
+    padding:20px;
 }
 
 img {
     height: 300px;
     width: auto;
-    
+    border: solid white 10px;
+}
+
+.normtext {
+    text-align: center;
+    font-size: 10px;
+    margin-top: 100px;
+    margin-bottom: 9500px;
 }
